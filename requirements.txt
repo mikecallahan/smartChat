@@ -1,4 +1,4 @@
 streamlit 
-streamlit-chat 
+streamlit_chat 
 langchain 
-python-dotenv
+dotenv
