@@ -1,0 +1,2 @@
+# Do not sync the following files/folders to Github
+.env
