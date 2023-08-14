@@ -38,7 +38,7 @@ def init():
             SystemMessage(content="You are a helpful assistant.")
         ]
 
-    st.sidebar.markdown("<p style='text-align: right;'>[Code on Github](https://github.com/mikecallahan/smartChat)</p>")
+    st.sidebar.markdown("[Code on Github](https://github.com/mikecallahan/smartChat)")
 
 def main():
     init()
