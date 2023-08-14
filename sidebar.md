@@ -4,7 +4,7 @@ To identify the details of using the OpenAI API to send prompts and receive resp
 
 ## Result
 
-simpleChat is an intuitive and user-friendly application designed to generate human-like text responses in a conversational manner. simpleChat can understand and generate text in a wide range of topics and can be used for various purposes such as content generation, language translation and much more.
+smartChat is an intuitive and user-friendly application designed to generate human-like text responses in a conversational manner. smartChat can understand and generate text in a wide range of topics and can be used for various purposes such as content generation, language translation and much more.
 
 ## Features
 

@@ -73,7 +73,7 @@ if __name__ == '__main__':
     # i.e python run mychat.py
     use_env=1
     st.set_page_config(page_title="Your own ChatGPT",page_icon="🤖")
-    st.header("Welcome to simpleChat")
+    st.header("Welcome to smartChat")
     
     # if using .env 
     if use_env == 0:
