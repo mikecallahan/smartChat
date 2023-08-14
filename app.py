@@ -1,7 +1,8 @@
+#####################
 # smartChat - app.py
-
+#
 # pip install streamlit streamlit-chat langchain python-dotenv
-
+#
 # create a .env file and put the following line of code in it:
 #     OPENAI_API_KEY = "{your openai key}"
 #
@@ -10,7 +11,7 @@
 # once you have created .env and added your own key, set use_env = 1 on line 69
 # 
 # To run the application: >streamlit run app.py
-#
+#####################
 
 import os
 import streamlit as st
