@@ -38,6 +38,8 @@ def init():
             SystemMessage(content="You are a helpful assistant.")
         ]
 
+    st.sidebar.markdown("[Code on Github](https://github.com/mikecallahan/smartChat)")
+
 def main():
     init()
 
