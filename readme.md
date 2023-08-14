@@ -8,6 +8,8 @@ smartChat is an intuitive and user-friendly application designed to generate hum
 
 ![smartChat image](smartChat.png)
 
+[Click here to give it a try](https://smartchat.streamlit.app/)
+
 ## Features
 
 - **Conversational AI**: Human-like interactions that can understand and respond to user prompts in a natural language format.
