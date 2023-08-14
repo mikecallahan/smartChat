@@ -91,6 +91,7 @@ if __name__ == '__main__':
         OPENAI_API_KEY = st.sidebar.text_input("Your OpenAI API key", type="password")
         if not OPENAI_API_KEY:
             st.warning("Please add your OpenAI API key to continue.")
+            init()
             st.stop()
         else:
            main()
