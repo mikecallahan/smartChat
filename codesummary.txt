@@ -1,0 +1,23 @@
+The provided code is a Python script for a chat application called "smartChat". It uses the Streamlit library for creating a web-based user interface and the OpenAI API for generating responses to user prompts.
+
+The script begins with some setup instructions in comments, including the installation of required packages and the creation of a .env file with the OpenAI API key. It also mentions that the code can be run using the command streamlit run app.py.
+
+The script imports the necessary libraries: os, streamlit, streamlit_chat, dotenv, langchain.chat_models, and langchain.schema.
+
+The init() function is defined to initialize the chat application. It creates buttons for starting a new chat and loads the content of a file called "sidebar.md" into the sidebar of the application.
+
+The main() function is defined to handle the main logic of the chat application. It calls the init() function, creates an instance of the ChatOpenAI class from the langchain.chat_models module, and initializes the message history.
+
+The user is prompted to enter a message using the st.chat_input() function. If the user enters a message, it is added to the message history as a HumanMessage object. The chat model is then called with the message history to generate a response, which is added to the message history as an AIMessage object.
+
+Finally, the message history is displayed in the user interface using the message() function from the streamlit_chat library.
+
+The script also includes a check for the __name__ variable to ensure that the code is only executed when the script is run directly, not when it is imported as a module.
+
+The use_env variable is set to 1, indicating that the OpenAI API key will be provided through the Streamlit sidebar. The Streamlit page configuration is set, and the header for the chat application is displayed.
+
+If use_env is set to 0, the script attempts to load the OpenAI API key from the .env file and checks if it is valid. If the key is valid, the main() function is called. Otherwise, an error message is displayed.
+
+If use_env is set to 1, the user is prompted to enter the OpenAI API key in the Streamlit sidebar. If no key is provided, a warning message is displayed and the script stops. Otherwise, the main() function is called.
+
+Overall, the code sets up a chat application using Streamlit and the OpenAI API, allowing users to interact with a chatbot powered by the GPT-3.5 Turbo model.
